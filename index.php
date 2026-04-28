@@ -33,6 +33,7 @@ while($item = mysqli_fetch_array($data)) {
     <td><?= $item['password'];?></td>
     <td>
         <a href="hapus.php?id=<?= $item['id'];?>" class="hapus">Hapus</a>
+        <a href="edit.php?id=<?=$item['id'];?>" class="edit">edit</a>
     </td>
 </tr>
 <?php } ?>
