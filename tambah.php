@@ -24,5 +24,7 @@ if(isset($_POST['simpan'])){
     '$_POST[nama]',
     '$_POST[password]'
     )");
+
+    header("location: index.php");
 }
 ?>
