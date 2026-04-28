@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Judul */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Tombol tambah */
+a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Tabel */
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eaeaea;
+}
+
+/* Header */
+table.data th {
+    text-align: left;
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Isi */
+table.data td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover efek */
+table.data tr:hover {
+    background-color: #dcdcdc;
+}
+
+/* Tombol hapus */
+.hapus {
+    color: black;
+    text-decoration: none;
+}
