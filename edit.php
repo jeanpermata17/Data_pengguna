@@ -17,7 +17,7 @@ $item = mysqli_fetch_array($data);
      <h1>ubah data_pengguna</h1>
     <form method="post">
         nama: <input type="text" name="nama" value="<?= $item['nama']; ?>"><br><br>
-        password: <input type="password" name="password"  value="<?= $item['password']; ?>"><br><br>
+        password: <input type="text" name="password"  value="<?= $item['password']; ?>"><br><br>
         <button type="submit" name="update">update</button>
   </form>
 </body>
